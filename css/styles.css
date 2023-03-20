@@ -1,10 +1,12 @@
 :root {
+  ---main-backgroung-color: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: #434455;
+  background-color: var(---main-backgroung-color);
 }
 
 .list {
@@ -25,7 +27,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -35,7 +37,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #2e2f42;
   text-transform: uppercase;
@@ -57,27 +59,31 @@ body {
   color: #2e2f42;
 }
 
-.header-link:is(:hover :focus) {
+.header-link:hover {
   color: #404bbf;
 }
+.header-link:focus {
+  color: #404bbf;
+}
+
 .header-address {
   font-style: normal;
 }
 .header-address-list {
 }
-.header-mail {
+.header-address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-phone {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: calc(24 / 16);
-  letter-spacing: 0.02em;
-  color: #434455;
+
+.header-address-link:focus {
+  color: #404bbf;
+}
+.header-address-link:hover {
+  color: #404bbf;
 }
 
 /**--------------------------HERO-------------------------**/
@@ -87,7 +93,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
@@ -100,9 +106,13 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  background-color: #4d5ae5;
 }
 
-.hero-button:is(:hover :focus) {
+.hero-button:hover {
+  background-color: #404bbf;
+}
+.hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -136,7 +146,7 @@ body {
 .work-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
@@ -154,7 +164,7 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
@@ -191,7 +201,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
@@ -201,7 +211,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #f4f4fd;
   text-transform: uppercase;
@@ -228,7 +238,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
@@ -238,7 +248,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #2e2f42;
   text-transform: uppercase;
@@ -257,7 +267,10 @@ body {
   color: #2e2f42;
 }
 
-.portfolio-header-link:is(:hover :focus) {
+.portfolio-header-link:hover {
+  color: #404bbf;
+}
+.portfolio-header-link:focus {
   color: #404bbf;
 }
 .portfolio-header-address {
@@ -298,7 +311,11 @@ body {
   cursor: pointer;
 }
 
-.help-button-btn:is(:hover :focus) {
+.help-button-btn:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.help-button-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -310,6 +327,8 @@ body {
 .list {
 }
 .hero-portfolio-item {
+}
+.hero-portfolio-link {
 }
 .hero-portfolio-titles {
   font-weight: 500;
@@ -337,7 +356,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
@@ -349,7 +368,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #f4f4fd;
   text-transform: uppercase;
