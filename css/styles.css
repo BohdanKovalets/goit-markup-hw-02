@@ -1,0 +1,330 @@
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/**--------------------------HEADER-------------------------**/
+.header {
+}
+.header-navigation {
+}
+.logo-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+}
+.link {
+}
+.list {
+}
+.header-list {
+}
+.header-item {
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-address {
+}
+.header-address-list {
+}
+.header-mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-phone {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/**--------------------------HERO-------------------------**/
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: calc(60 / 56);
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background: #4d5ae5;
+}
+
+/**----------------------OPPORTUNITIES---------------------**/
+.opportunities {
+}
+.opportunities-list {
+}
+.opportunities-item {
+}
+.opportunities-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.about-opportunities-titles {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/**--------------------------WORK-------------------------**/
+.work {
+}
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.work-list {
+}
+.work-item {
+}
+
+/**--------------------------TEAM-------------------------**/
+.team {
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-list {
+}
+.list {
+}
+.team-item {
+}
+.about-team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.about-team-title-work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/**--------------------------FOOTER-------------------------**/
+.footer {
+  background-color: #2e2f42;
+}
+.logo-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+/**-----------------------second page------------------------*/
+
+/**-----------------------PORTFOLIO HEADER-------------------*/
+
+.portfolio-header {
+}
+.portfolio-header-navigation {
+}
+.portfolio-logo-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.portfolio-header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+}
+.link {
+}
+.portfolio-header-list {
+}
+.portfolio-header-item {
+}
+.portfolio-header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-header-list-address {
+}
+.portfolio-header-mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.portfolio-header-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/**-----------------------HELP BUTTON------------------------*/
+
+.help-button {
+}
+.help-button-list {
+}
+.list {
+}
+.help-button-item {
+}
+.help-button-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.help-button-btn:is(:hover :focus) {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+/**-----------------------HERO PORTFOLIO------------------------*/
+.hero-portfolio {
+}
+.hero-portfolio-list {
+}
+.list {
+}
+.hero-portfolio-item {
+}
+.hero-portfolio-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.about-hero-portfolio-titles {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/**-----------------------PORTFOLIO FOOTER------------------------*/
+
+.portfolio-footer {
+  background-color: #2e2f42;
+}
+.portfolio-footer-logo-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.link {
+}
+.portfolio-footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+}
+.portfolio-footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
