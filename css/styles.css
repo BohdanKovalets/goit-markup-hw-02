@@ -278,19 +278,19 @@ body {
 }
 .portfolio-header-list-address {
 }
-.portfolio-header-mail {
+.portfolio-address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: #434455;
 }
-.portfolio-header-tel {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: calc(24 / 16);
-  letter-spacing: 0.02em;
-  color: #434455;
+
+.portfolio-address-link:hover {
+  color: #404bbf;
+}
+.portfolio-address-link:focus {
+  color: #404bbf;
 }
 
 /**-----------------------HERO PORTFOLIO------------------------*/
